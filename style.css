@@ -3,7 +3,10 @@ By Tyler Widener
 tylerwidenerlm@gmail.com
 */
 body {
-    background: linear-gradient(90deg, white, #2eacd4);
+    /*background: linear-gradient(90deg, white, #2eacd4);*/
+    background-image: url("SpaceBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .groovy {
     font-weight: bold;
@@ -19,9 +22,42 @@ body {
     color: yellow;
     font-weight: bolder;
 }
+#spacePageText{
+  color: white;
+}
+#timeClock{
+  color: white;
+}
+#data{
+  color: white;
+}
+#countdownTimer{
+  color: white;
+}
+#die1Res{
+  color: white;
+}
+#die2Res{
+  color: white;
+}
+#sumRes{
+  color: white;
+}
+#finalResult{
+  color: white;
+}
+#winsRes{
+  color: white;
+}
+#lossRes{
+  color: white;
+}
+#tieRes{
+  color: white;
+}
 
 #indexTitle{
-  color: black;
+  color: white;
 }
 .blink_me {
     animation: blinker 4s linear infinite;
@@ -50,4 +86,5 @@ body {
 
 #objTitle{
   font-size: x-large;
+  color: white;
 }

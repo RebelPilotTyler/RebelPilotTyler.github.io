@@ -3,22 +3,38 @@ By Tyler Widener
 tylerwidenerlm@gmail.com
 */
 body {
-    background: radial-gradient(circle at center, red, rebeccapurple);
-    color: ivory;
+    /*background: radial-gradient(circle at center, red, rebeccapurple);
+    color: ivory;*/
+    background-image: url("SpaceBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .groovy {
     font-weight: bold;
     font-style: italic;
 }
 #loginTitleText{
-    color: green;
+    color: white;
     font-style: italic;
     text-align: center;
     text-transform: uppercase;
 }
 #loginDivText{
-    color: yellow;
+    color: white;
     font-weight: bolder;
+}
+#LoginStatus{
+    color: white;
+}
+#CreditSubmit{
+    color: white;
+}
+.button {
+  width: 100px;
+  height: 30px;
+  background-color: white;
+  border-radius: 12px;
+  border-color: lightblue;
 }
 .blink_me {
     animation: blinker 4s linear infinite;
